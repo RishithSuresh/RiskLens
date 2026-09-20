@@ -1,0 +1,19 @@
+{
+  "project": "RiskLens credit card default prediction",
+  "target": "default.payment.next.month",
+  "selected_model": "Random forest",
+  "selection_metric": "test PR-AUC",
+  "test_rows": 6000,
+  "default_prevalence": 0.22116666666666668,
+  "test_roc_auc": 0.7707317010239038,
+  "test_pr_auc": 0.5504722209781496,
+  "brier_score": 0.1587788005242188,
+  "validation_selected_threshold": 0.24000000000000002,
+  "intended_use": "prioritize human review and intervention queues",
+  "prohibited_use": "fully automated adverse-action decision",
+  "known_limitations": [
+    "cross-sectional observational data",
+    "random split may overstate temporal deployment performance",
+    "threshold requires an explicit business cost policy"
+  ]
+}
